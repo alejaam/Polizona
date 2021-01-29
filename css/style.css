@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body,
+html {
+    background-color: #131417;
+    color: white;
+    height: 100%;
+}
+
+.big-container {
+    padding: 10px;
+    margin: 15px;
+    /* border: 1px solid grey; */
+    border-radius: 6px;
+    background-color: #1E1F26;
+
+}
+
+.card {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    background-color: #1E1F26;
+}
+
+html[data-theme='dark'] {
+    background: #000;
+    filter: invert(1) hue-rotate(180deg)
+}
+
+.vl {
+    border-left: 2px solid grey;
+    height: auto;
+}
+
+.nav-item>a {
+    color: white;
+}
+
+textarea {
+    border: 1px solid grey;
+    resize: none;
+}
+
+tbody{
+    overflow-y: auto ;
+}
